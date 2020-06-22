@@ -1,0 +1,15 @@
+.Items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    flex-flow: column;
+    list-style: none;
+    align-items: center;
+}
+
+@media (min-width: 500px) {
+    .Items {
+        flex-flow: row;
+    }
+}
